@@ -40,11 +40,11 @@ warp.text.15=У вас раптово дуже дивно бурчить у жи
 entity.Thaumcraft.Golem.name=Голем
 entity.Thaumcraft.ThaumSlime.name=Таум. слиз
 entity.Thaumcraft.Dart.name=Дротик голема
-entity.Thaumcraft.FrostShard.name=Куля з льоду
+entity.Thaumcraft.FrostShard.name=Льодова куля
 entity.Thaumcraft.ExplosiveOrb.name=Вогняна куля
 entity.Thaumcraft.ShockOrb.name=Шокова куля
 entity.Thaumcraft.GolemOrb.name=Енергетична куля
-entity.Thaumcraft.BottleTaint.name=Порча в пляшці
+entity.Thaumcraft.BottleTaint.name=Причина в пляшці
 entity.Thaumcraft.Firebat.name=Пекельний кажан
 entity.Thaumcraft.Wisp.name=Вісп
 entity.Thaumcraft.Alumentum.name=Алюментум
@@ -54,12 +54,12 @@ entity.Thaumcraft.FollowItem.name=Супровідний предмет
 entity.Thaumcraft.SpecialItem.name=Магічний предмет
 entity.Thaumcraft.FallingTaint.name=Заражений осад
 entity.Thaumcraft.AspectOrb.name=Сфера аспекту
-entity.Thaumcraft.TaintSpider.name=Заражений павучок
+entity.Thaumcraft.TaintSpider.name=Заражений павук
 entity.Thaumcraft.Taintacle.name=Тентакля
 entity.Thaumcraft.TaintacleTiny.name=Маленька тентакля
 entity.Thaumcraft.TaintacleGiant.name=Величезна тентакля
 entity.Thaumcraft.TaintSpore.name=Заражена спора
-entity.Thaumcraft.TaintSwarmer.name=Заражений споровий рій
+entity.Thaumcraft.TaintSwarmer.name=Розсіювач заражених спор
 entity.Thaumcraft.TaintSwarm.name=Заражений рій
 entity.Thaumcraft.TaintedVillager.name=Заражений селянин
 entity.Thaumcraft.TaintedChicken.name=Заражена курка
@@ -70,25 +70,25 @@ entity.Thaumcraft.TaintedCreeper.name=Заражений кріпер
 entity.Thaumcraft.Pech.name=Гном-видобувач
 entity.Thaumcraft.Pech.1.name=Гном-маг
 entity.Thaumcraft.Pech.2.name=Гном-шукач
-entity.Thaumcraft.PrimalOrb.name=Шар первісної енергії
+entity.Thaumcraft.PrimalOrb.name=Куля первісної енергії
 entity.Thaumcraft.TravelingTrunk.name=Мандрівна скриня
 entity.trunk.guiname=Скриня
-entity.trunk.move=Скриня буде слідкувати за тобою
-entity.trunk.stay=Скриня буде стояти тут
+entity.trunk.move=Скриня слідкуватиме за тобою
+entity.trunk.stay=Скриня стоятиме тут
 entity.Thaumcraft.MindSpider.name=Мозковий паук
-entity.Thaumcraft.EldritchGuardian.name=Стародавній страж
-entity.Thaumcraft.EldritchWarden.name=%s - %d
+entity.Thaumcraft.EldritchGuardian.name=Стародавній сторож
+entity.Thaumcraft.EldritchWarden.name=%s %d
 entity.Thaumcraft.EldritchGolem.name=%s Стародавній голем
 entity.Thaumcraft.EldritchOrb.name=Старовинна сфера
 entity.Thaumcraft.CultistKnight.name=Багряний лицар
-entity.Thaumcraft.CultistCleric.name=Багряний маг
-entity.Thaumcraft.CultistLeader.name=Претор %s %d
+entity.Thaumcraft.CultistCleric.name=Багряний клірик
+entity.Thaumcraft.CultistLeader.name=Маршал %s %d
 entity.Thaumcraft.CultistPortal.name=Багряний портал
 entity.Thaumcraft.EldritchCrab.name=Стародавній краб
 entity.Thaumcraft.InhabitedZombie.name=Волокуча оболонка
-entity.Thaumcraft.GolemBobber.name=Поплавок голема
+entity.Thaumcraft.GolemBobber.name=Поплавець голема
 #
-champion.mod.bold=Сміливий
+champion.mod.bold=Доблесний
 champion.mod.spine=Шипастий
 champion.mod.armor=Броньований
 champion.mod.mighty=Могутній
@@ -99,12 +99,12 @@ champion.mod.undying=Безсмертний
 champion.mod.fiery=Вогняний
 champion.mod.sickly=Хворий
 champion.mod.venomous=Отруйний
-champion.mod.vampiric=Вампірський
+champion.mod.vampiric=Вампіричний
 champion.mod.infested=Заражений
 #
 tc.boss.crimson=Поруч відкривається рубіновий портал проголошуючи прихід Багряного культу. Ти маєш швидко закрити його!
-tc.boss.golem=Самотній вартовий стоїть заморожений у цій кімнаті, але коли його енергія починає тріщати крізь його стародавню раму, ви знаєте що він не залишиться замороженим довго.
-tc.boss.warden=Темна енергія бульбашки на віддаленому постаменті. Щось наближається...
+tc.boss.golem=Самотній вартовий стоїть у цій кімнаті замороженим, але коли його енергія починає тріщати крізь його стародавню раму, ви розумієте, що він вже скоро не буде таким нерухомми.
+tc.boss.warden=Темна енергія бурлить на віддаленому постаменті. Щось наближається...
 tc.boss.taint=Звідкись доноситься органічний хруст. Звук якийсь дивний... Щось виростає...
 #
 # Blocks
@@ -1789,5 +1789,9 @@ tc.research_name.PRIMALCRUSHER=Сингулярний руйнівник
 tc.research_text.PRIMALCRUSHER=Зламати все!
 tc.research_page.PRIMALCRUSHER.1=Теорія наповнення просто - наповнити одну річ есенцією і характеристиками інших. Завжди всьому є межа, але судя по всьому з відкриттям сингулярної перлини ця межа відсувається все далі і далі.<BR>В якості експерименту, Ви спробували наповнити перлину кількома різними об'єктами. Це все пройшло успішно. Сингулярний руйнівник - перше застосування отриманого досвіду.<BR>Сумістивши Лопату Землекопа та Кайло Вогню з пустотними побратимами, Ви створили
 tc.research_page.PRIMALCRUSHER.2=інструмент необмеженої потужності.<BR>Сингулярний руйнівник може прориватися крізь камінь і землю з великою швидкістю, та і ще і в зоні 3 на 3. Як і Кайло Вогню, він буде видобувати кластери замість руд з певним шансом.<BR>Він відновлюється з часом, має велику зачарований потенціал і має служити доброю зброєю.<BR>На жаль, у нього залишилась тільки руйнівна натура - конструкційні та локаційні властивості його “батьків” безслідно загублені.
+
+# Забуте, навіть у оригінальній локалізації
+
+tile.blockPortalNothing.name=Порожнеча
 
 #
